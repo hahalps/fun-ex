@@ -1,6 +1,5 @@
 #lang plait
 
-
 (define (make-number n)
   (make-generator (lambda(yield)
                     (lambda(vd)
